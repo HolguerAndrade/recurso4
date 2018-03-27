@@ -1,0 +1,66 @@
+<fundacion alto="550" ancho="775" scorm="0">
+  <pagina locked="0" id="1">
+    <elemento colorFondo="-1" alfaFondo="100" imagen="galeria/fondos/Objetos/fondos/Fondos_Reutilizar/[_2_]Definicion.png" posy="0" posx="0" tipo="fondo" src="10"/>
+    <elemento imagen="galeria/imagenes/Objetos/fondos/Fondos_Reutilizar/[_2_]Seguir.png" salto="2" alto_px="512" ancho_px="512" alto="12.11" ancho="12.11" rotation="0" posy="482" posx="704" tipo="hipervinculo" src="5"/>
+  </pagina>
+  <pagina locked="0" id="1b"/>
+  <pagina locked="0" id="2">
+    <elemento colorFondo="-1" alfaFondo="100" imagen="galeria/fondos/Objetos/fondos/Fondos_Reutilizar/[_2_]Img_2.png" posy="0" posx="0" tipo="fondo" src="10"/>
+    <elemento imagen="galeria/imagenes/Objetos/fondos/Fondos_Reutilizar/[_2_]Seguir.png" salto="3" alto_px="512" ancho_px="512" alto="11.92" ancho="11.33" rotation="0" posy="484" posx="709" tipo="hipervinculo" src="5"/>
+  </pagina>
+  <pagina locked="0" id="2b"/>
+  <pagina locked="0" id="3">
+    <elemento colorFondo="-1" alfaFondo="100" imagen="galeria/fondos/Objetos/fondos/Fondos_Reutilizar/[_2_]Img_3.png" posy="0" posx="0" tipo="fondo" src="10"/>
+    <elemento imagen="galeria/imagenes/Objetos/fondos/Fondos_Reutilizar/[_2_]Seguir.png" salto="4" alto_px="512" ancho_px="512" alto="11.14" ancho="11.53" rotation="0" posy="6" posx="708" tipo="hipervinculo" src="5"/>
+  </pagina>
+  <pagina locked="0" id="3b"/>
+  <pagina locked="0" id="4">
+    <elemento colorFondo="-1" alfaFondo="100" imagen="galeria/fondos/Objetos/fondos/Fondos_Reutilizar/[_2_]Img_4.png" posy="0" posx="0" tipo="fondo" src="10"/>
+    <elemento imagen="galeria/imagenes/Objetos/fondos/Fondos_Reutilizar/[_2_]Seguir.png" salto="5" alto_px="512" ancho_px="512" alto="12.9" ancho="12.5" rotation="0" posy="7" posx="700" tipo="hipervinculo" src="5"/>
+  </pagina>
+  <pagina locked="0" id="4b"/>
+  <pagina locked="0" id="5">
+    <elemento colorFondo="-1" alfaFondo="100" imagen="galeria/fondos/Objetos/fondos/Fondos_Reutilizar/[_2_]Fondo_act1.png" posy="0" posx="0" tipo="fondo" src="10"/>
+    <elemento actividad="galeria/actividades/completa.swf" alto_px="550" ancho_px="775" alto="100" ancho="100" rotation="0" posy="0" posx="0" tipo="actividad" src="3">
+      <actividad id="5" name="actividad">
+        <paso1 name="paso1">
+          <titulo name="titulo" texto="Actividad 1. Completar"/>
+          <instrucciones name="instrucciones"><![CDATA[Lea cuidadosamente el enunciado que se le presenta a continuación y completelo de forma correcta utilizando las palabras que se le dan de pistas.]]></instrucciones>
+          <interacciones name="interacciones" puntuacion="" tiempo="-1" intentos="2"/>
+        </paso1>
+        <paso2 name="paso2">
+          <conf name="conf" texto="La {reutilización} consiste en una serie de {acciones} que permiten volver a {usar}un determinado producto para darle una {segunda} vida, con el {mismo} uso u otro diferente. Medidas encaminadas a alargar su vida {útil}. Antes de tirarlo o {sustituirlo} por uno nuevo, debemos buscar el modo de {repararlo} o, de no ser posible, darle otro uso antes del final de su vida."/>
+        </paso2>
+        <paso3 name="paso3">
+          <msgAcierto name="msgAcierto" texto="Muy bien Felicitaciones"/>
+          <sndAcierto name="sndAcierto" sonido="galeria/sonidos/Objetos/[_2_]correcto_ordenador2.mp3"/>
+          <msgFallo name="msgFallo" texto="Fallaste.. vuelve a intentarlo"/>
+          <sndFallo name="sndFallo" sonido="galeria/sonidos/Objetos/[_2_]incorrecto_ordenador.mp3"/>
+        </paso3>
+      </actividad>
+    </elemento>
+    <elemento imagen="galeria/imagenes/Objetos/fondos/Fondos_Reutilizar/[_2_]Seguir.png" salto="6" alto_px="512" ancho_px="512" alto="10.94" ancho="9.97" rotation="0" posy="3" posx="715" tipo="hipervinculo" src="5"/>
+  </pagina>
+  <pagina locked="0" id="5b"/>
+  <pagina locked="0" id="6">
+    <elemento colorFondo="-1" alfaFondo="100" imagen="galeria/fondos/Objetos/fondos/Fondos_Reutilizar/[_2_]Fondo3.jpg" posy="0" posx="0" tipo="fondo" src="10"/>
+    <elemento actividad="galeria/actividades/ahorcado.swf" alto_px="550" ancho_px="775" alto="100" ancho="100" rotation="0" posy="0" posx="0" tipo="actividad" src="3">
+      <actividad id="26" name="actividad">
+        <paso1 name="paso1">
+          <titulo name="titulo" texto="Actividad 2. El Ahorcado"/>
+          <instrucciones name="instrucciones"><![CDATA[La palabra qeu debes encontrar es la clave del tema que acabas de estudiar... Adivina la palabra ]]></instrucciones>
+          <interacciones name="interacciones" puntuacion="" tiempo="-1" intentos="2"/>
+        </paso1>
+        <paso2 name="paso2">
+          <conf name="conf"><![CDATA[Reutilizacion]]></conf>
+        </paso2>
+        <paso3 name="paso3">
+          <msgAcierto name="msgAcierto" texto="Muy bien.. Felicitaciones"/>
+          <sndAcierto name="sndAcierto" sonido="galeria/sonidos/Objetos/[_2_]correcto_ordenador2.mp3"/>
+          <msgFallo name="msgFallo" texto="Fallaste.. Vuelve a intentarlo"/>
+          <sndFallo name="sndFallo" sonido="galeria/sonidos/Objetos/[_2_]incorrecto_ordenador2.mp3"/>
+        </paso3>
+      </actividad>
+    </elemento>
+  </pagina>
+</fundacion>
